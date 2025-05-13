@@ -1,0 +1,8 @@
+create database bdescola;
+use bdescola;
+create table tbcliente(
+    codigo int primary key auto_increment,
+    nome varchar(90),
+    email varchar(90),
+    idade int
+);
